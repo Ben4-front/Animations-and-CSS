@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.collapse-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.collapse-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.collapse-content {
+    height: 0;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+    transition: height 0.35s ease-out; 
+}
+
+.content-body {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.collapse-content.open {
+}
