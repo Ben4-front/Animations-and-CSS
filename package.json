@@ -20,6 +20,9 @@
   "homepage": "https://github.com/Ben4-front/Animations-and-CSS#readme",
   "description": "",
   "devDependencies": {
+    "@babel/core": "^7.28.6",
+    "@babel/preset-env": "^7.28.6",
+    "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.6",
     "mini-css-extract-plugin": "^2.10.0",
